@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>Gun 1 Ve site Boyle</div>
+      <div>Son deneme commiti</div>
     </>
   )
 }
