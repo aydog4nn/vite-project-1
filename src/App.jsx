@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>Son deneme commiti</div>
+      <div>Sonti</div>
     </>
   )
 }
