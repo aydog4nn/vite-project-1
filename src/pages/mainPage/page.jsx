@@ -1,22 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './page.css'
+import Header from '../../components/Header'
 
 const Page = () => {
     return (
         <div className="tourist-guide">
-            {/* Navigation Bar */}
-            <nav className="navbar">
-                <div className="nav-brand">TourGuide</div>
-                <ul className="nav-links">
-                    <li><a href="#home">Ana Sayfa</a></li>
-                    <li><a href="#destinations">Destinasyonlar</a></li>
-                    <li><a href="#about">Hakkımızda</a></li>
-                    <li><a href="#contact">İletişim</a></li>
-                    <li><Link to="/turkey-map">Türkiye Haritası</Link></li>
-                </ul>
-            </nav>
-
+            <Header />
             {/* Hero Section */}
             <div className="hero-section">
                 <div className="hero-content">
