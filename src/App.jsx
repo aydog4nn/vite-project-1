@@ -1,14 +1,16 @@
-import { useState } from 'react'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Page from './mainPage/page'
+import TurkeyMap from './mainPage/turkeyMap/page'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>Sonti</div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Page />} />
+        <Route path="/turkey-map" element={<TurkeyMap />} />
+      </Routes>
+    </Router>
   )
 }
 
