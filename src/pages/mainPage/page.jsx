@@ -6,7 +6,7 @@ import Header from '../../components/Header'
 const Page = () => {
     return (
         <div className="tourist-guide">
-            <Header />
+
             {/* Hero Section */}
             <div className="hero-section">
                 <div className="hero-content">
