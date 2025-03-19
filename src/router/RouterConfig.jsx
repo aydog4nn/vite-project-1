@@ -7,7 +7,7 @@ import NotFoundPage from '../pages/NotFoundPage'
 import Header from '../components/Header'
 import TurkeyMap from '../pages/turkeyMap/page'
 import Page from '../pages/mainPage/page'
-function Router() {
+function RouterConfig() {
     return (
         <div>
             <Header />
@@ -25,4 +25,4 @@ function Router() {
     )
 }
 
-export default Router
+export default RouterConfig

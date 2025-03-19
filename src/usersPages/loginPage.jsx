@@ -3,6 +3,7 @@ import myImage from '../images/6838886abe627023dbd894f478353a0d.jpeg';
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 const LoginPage = () => {
+
     return (
         <div
             style={{
@@ -16,7 +17,7 @@ const LoginPage = () => {
             }}
         >
             <Container>
-                <Row className="justify-content-center">
+                <Row  className="justify-content-center">
                     <Col md={6} className="p-4 bg-light rounded shadow">
                         <h2 className="text-center mb-4">Welcome Back</h2>
                         <p className="text-center text-muted">
