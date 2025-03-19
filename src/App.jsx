@@ -5,12 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Page />} />
-        <Route path="/turkey-map" element={<TurkeyMap />} />
-      </Routes>
-    </Router>
+    <div>Ilker&Ahmet</div>
   )
 }
 
